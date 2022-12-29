@@ -1,0 +1,38 @@
+# Set the width and height of the screen [width, height]
+WIDTH = 1000
+HEIGHT = 500
+
+# Define some colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+
+# FPS is Frame Per Second
+FPS = 40
+
+TARGET_WIDTH = 10
+
+SPRITE_SIZE = 50
+
+RIGHT = 90
+LEFT = 270
+UP = 0
+DOWN = 180
+
+IMAGE_DELAY = 5
+
+BULLET_COOLDOWN_DELAY = 40
+ENEMY_BULLET_COOLDOWN_DELAY = 50
+
+DEBUG_MODE = False
+
+GAME_DURATION_IN_SECONDS = 60
+
+GAME_BEGIN = 0
+GAME_STARTED = 1
+BATTLE_1 = 2
+BATTLE_2 = 3
+BATTLE_3 = 4
+GAME_WON = 5
